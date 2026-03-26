@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "name": "@lloveeely 예영 X ODD.",
+    "description": "❤️ 4월 공구 ❤️",
+    "logo": "/logo.png"
+  },
+  "products": [
+    {
+      "title": "스타터킷 1개 (5병) / 26,000원",
+      "url": "https://smartstore.naver.com/hanahone/products/13269224598"
+    },
+    {
+      "title": "스타터킷 3개 (15병) / 65,000원",
+      "url": "https://smartstore.naver.com/hanahone/products/13269992041"
+    },
+    {
+      "title": "리필킷 1개 + 스타터킷 2개 (40병) / 130,000원",
+      "url": "https://smartstore.naver.com/hanahone/products/13269992042"
+    },
+    {
+      "title": "리필킷 2개 + 스타터킷 3개 (75병) / 240,000원",
+      "url": "https://smartstore.naver.com/hanahone/products/13269992043"
+    },
+    {
+      "title": "리필킷 3개 + 스타터킷 4개 (110병) / 350,000원",
+      "url": "https://smartstore.naver.com/hanahone/products/13269992044"
+    }
+  ]
+}
