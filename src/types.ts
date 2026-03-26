@@ -1,5 +1,7 @@
 export interface Product {
   title: string;
+  originalPrice: string;
+  price: string;
   url: string;
 }
 

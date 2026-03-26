@@ -36,10 +36,15 @@ export default function Home() {
               href={product.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full py-4 px-6 text-center text-white font-medium rounded-full transition-transform hover:scale-105"
+              className="w-full py-4 px-6 text-center text-white rounded-full transition-transform hover:scale-105 flex flex-col items-center gap-1"
               style={{ backgroundColor: "#CC2834" }}
             >
-              {product.title}
+              <span className="font-medium">{product.title}</span>
+              <span className="text-sm">
+                <span className="line-through opacity-60">{product.originalPrice}</span>
+                {" → "}
+                <span className="font-bold">{product.price}</span>
+              </span>
             </a>
           ))}
         </div>
